@@ -1,0 +1,16 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "No_Revive_zombies",
+    "name": "No Zombie Revivification",
+    "maintainers": [ "Fris0uman" ],
+    "description": "Zombies don't revive.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "flag": { "name": "REVIVES", "value": false }
+  }
+]
